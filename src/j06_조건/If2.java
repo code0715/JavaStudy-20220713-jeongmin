@@ -3,30 +3,23 @@ package j06_조건;
 public class If2 {
 
 	public static void main(String[] args) {
-		int score = 85;
+		int x = -2;
+		int y = -5;
 		String result = null;
 		
-		if(score < 0 || score > 100) {
-			System.out.println("점수가 0 ~ 100점 사이여야 합니다.");
-			result = "계산 불가";
-		}else if(score > 89) {
-			System.out.println("100또는 90점대 입니다.");
-			result = "A";
-		}else if(score > 79) {
-			System.out.println("80점대 입니다.");
-			result = "B";
-		}else if(score > 69) {
-			System.out.println("70점대 입니다.");
-			result = "C";
-		}else if(score > 59) {
-			System.out.println("60점대 입니다.");
-			result = "D";
+		if(x > 0 && y > 0) {
+			result = "1사분면";
+		}else if(x < 0 && y > 0) {
+			result = "2사분면";
+		}else if(x < 0 && y < 0) {
+			result = "3사분면";
 		}else {
-			System.out.println("0 ~ 59점 사이입니다.");
-			result = "F";
+			result = "4사분면";
 		}
-			System.out.println("결과: " + result);
-			
+		
+		System.out.println("X: " + x);
+		System.out.println("Y: " + y);
+		System.out.println("결과: " + result);
 	}
 
 }
