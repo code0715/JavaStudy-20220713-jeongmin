@@ -15,12 +15,26 @@ public class Random2 {
 		Random random = new Random();
 		
 		int i = 0;
+		int temp = 0;
 		
 		while(i < 10) {
 			int rNum = random.nextInt(10);
-			System.out.println(rNum);
+			System.out.println("현재 temp 값: " + temp);
+			System.out.println("새로 생선된 값: " + rNum);
+			System.out.println();
+			
+			if(i == 0) {
+				temp = rNum;
+			}else {
+				if(temp < rNum) {
+					temp = rNum;
+				}
+			}
+			
 			i++;
 		}
+		
+		System.out.println("최대값: " + temp);
 		
 
 	}
