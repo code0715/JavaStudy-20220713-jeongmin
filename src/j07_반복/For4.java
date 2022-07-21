@@ -18,8 +18,8 @@ public class For4 {
 					System.out.println(temp.substring(0, i));
 				}
 			}
-			if( i == address.length() - 1) {
-			System.out.println(subStr);
+			if(i == address.length() - 1) {
+				System.out.println(address.substring(address.lastIndexOf(" ") + 1));
 			}
 		}
 
