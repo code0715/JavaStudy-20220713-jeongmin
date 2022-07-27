@@ -11,6 +11,10 @@ public class Factory {
 		System.out.println(factoryNumber + "공장을 가동합니다");
 	}
 	
+	public void produce() {
+		System.out.println(factoryNumber + "공장이 생산합니다");
+	}
+	
 	public void stop() {
 		System.out.println(factoryNumber + "공장을 멈춥니다.");
 	}

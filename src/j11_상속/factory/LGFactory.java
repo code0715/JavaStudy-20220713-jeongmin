@@ -12,8 +12,8 @@ public class LGFactory extends Factory{
 	}
 	@Override
 	public void stop() {
-		System.out.println("LG ");
 		super.stop();
+		System.out.println();
 	}
 	public void produceSmartTv() {
 		System.out.println("LG 스마트 TV를 생산합니다.");

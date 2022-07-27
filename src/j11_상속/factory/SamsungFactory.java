@@ -12,8 +12,8 @@ public class SamsungFactory extends Factory{
 	}
 	@Override
 	public void stop() {
-		System.out.println("삼성 ");
 		super.stop();
+		System.out.println();
 	}
 	public void produceSmartPhone() {
 		System.out.println("삼성 스마트폰을 생산합니다.");
