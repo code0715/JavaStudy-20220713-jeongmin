@@ -14,4 +14,9 @@ public class FactoryService {
 	public void factoryStop() {
 		factory.stop();
 	}
+	
+	public void setFactory(Factory factory) {
+		this.factory = factory;
+	}
+	
 }
