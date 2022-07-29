@@ -10,9 +10,9 @@ public class PersonMain {
 			System.out.println(i + 1 + "번 사람(이름): " + names[i]);
 			System.out.println(i + 1 + "번 사람(나이): " + ages[i]);
 		}
-		Person person1 = new Person();
-		person1.setName("김준일");
-		System.out.println(person1.getName());
+//		Person person1 = new Person("김준일", 29);
+//		person1.setName("김준일");
+//		System.out.println(person1.getName());
 		
 		String name1 = "김준일";
 		String name2 = "서재효";
