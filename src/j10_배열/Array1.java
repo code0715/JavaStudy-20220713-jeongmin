@@ -28,6 +28,5 @@ public class Array1 {
 		strArray[4] = "문자열";
 		
 		scanArray[0] = new Scanner(System.in);
-		System.out.println(numbers);
 	}
 }
