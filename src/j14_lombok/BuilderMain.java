@@ -12,7 +12,9 @@ public class BuilderMain {
 		
 		System.out.println(car);
 		
-
+		Car car2 = new Car();
+		car2.setCompany("현대");
+		car2.setColor("블랙");
 	}
 
 }

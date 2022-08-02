@@ -2,6 +2,7 @@ package j14_lombok;
 
 public class Builder extends CarBuilder{
 
+	
 	@Override
 	public CarBuilder company(String company) {
 		car.setCompany(company);
